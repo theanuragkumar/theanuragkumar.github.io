@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/theanuragkumar.github.io/static/css/main.3799542d.chunk.css",
+    "main.js": "/theanuragkumar.github.io/static/js/main.4c05d3f6.chunk.js",
+    "main.js.map": "/theanuragkumar.github.io/static/js/main.4c05d3f6.chunk.js.map",
+    "runtime-main.js": "/theanuragkumar.github.io/static/js/runtime-main.59fdba65.js",
+    "runtime-main.js.map": "/theanuragkumar.github.io/static/js/runtime-main.59fdba65.js.map",
+    "static/js/2.0741cd04.chunk.js": "/theanuragkumar.github.io/static/js/2.0741cd04.chunk.js",
+    "static/js/2.0741cd04.chunk.js.map": "/theanuragkumar.github.io/static/js/2.0741cd04.chunk.js.map",
+    "index.html": "/theanuragkumar.github.io/index.html",
+    "precache-manifest.1405409b6ac72928591d31fcc0957cae.js": "/theanuragkumar.github.io/precache-manifest.1405409b6ac72928591d31fcc0957cae.js",
+    "service-worker.js": "/theanuragkumar.github.io/service-worker.js",
+    "static/css/main.3799542d.chunk.css.map": "/theanuragkumar.github.io/static/css/main.3799542d.chunk.css.map",
+    "static/js/2.0741cd04.chunk.js.LICENSE.txt": "/theanuragkumar.github.io/static/js/2.0741cd04.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59fdba65.js",
+    "static/js/2.0741cd04.chunk.js",
+    "static/css/main.3799542d.chunk.css",
+    "static/js/main.4c05d3f6.chunk.js"
+  ]
+}
