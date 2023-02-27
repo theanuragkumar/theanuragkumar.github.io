@@ -20,7 +20,7 @@ const Services = () => {
       heading: "Blog App",
       link: "https://www.anlakshya.in/",
       text:
-        "developed a Anlakshya-Blog App using MERN Stack where Admin can maintain blog-writers and Blog-writers can login and perform CRUD operations with their blogs and many more...",
+        "developed a Anlakshya-Blog App using microservice architecture where Admin can maintain blog-writers and Blog-writers can login and perform CRUD operations with their blogs and many more...",
     },
     {
       id: 2,
