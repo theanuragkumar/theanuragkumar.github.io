@@ -49,7 +49,7 @@ const Services = () => {
     {
       id: 5,
       icon: <FaShoppingBag className="commonIcons" />,
-      heading: "Shooping APP",
+      heading: "Shooping App",
       link: "",
       text:
         "developed a Shooping APP using  SpringBoot and Thymleaf where You can login or create your own account and then You can buy or add items  into your cart.",
@@ -72,7 +72,6 @@ const Services = () => {
             <p className="mainContent">{header.text}</p>
             <div className="commonBorder"></div>
           </div>
-
           <div className="row bgMain">
             {state.map((info) => (
               <div className="col-4 bgMain">
@@ -81,7 +80,9 @@ const Services = () => {
                   {info.icon}
                   <div className="services__box-header">{info.heading}</div>
                   <div className="services__box-p">{info.text}</div>
+                  <div className="services__box-b">Know More</div>
                 </div>
+              
                 </a>
               </div>
             ))}

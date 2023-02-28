@@ -32,7 +32,7 @@ const About = () => {
             <div className="about__info">
               <h1>Hi, </h1>
               <div className="about__info-p1">
-              I am Full Stack Java Developer​ having hands on experience in Spring, Spring Boot, MicroService, Rest Api, HTML, CSS, JavaScript, React Js. 
+              I am Full Stack Web Developer​ having hands on experience in Go Lang, Spring, Spring Boot, MicroService, Rest Api, HTML, CSS, JavaScript, React Js. 
               </div>
               <div className="info__contacts">
                 <div className="row">
