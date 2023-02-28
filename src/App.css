@@ -42,6 +42,7 @@ body {
 
 .navbar__right {
   display: flex;
+  gap: 25px;
   list-style-type: none;
 }
 .navbar__right li a {
@@ -49,8 +50,11 @@ body {
   color: #fff;
   font-weight: 500;
   font-size: 18px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
+  
+  position: relative;
 }
+
 
 /* Helpers */
 .container {
@@ -166,6 +170,7 @@ body {
   padding: 0 30px;
   margin-top: 150px;
   margin-left: 20%;
+  
 }
 
 /* Servives */
@@ -402,6 +407,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    gap: 0;
     
   }
   .navbar__right li a {
@@ -409,6 +415,9 @@ body {
     padding: 20px 0;
     font-size: 14px;
   }
+
+ 
+
   .toggle {
     display: flex;
 
@@ -531,3 +540,24 @@ body {
 
 }
 
+@media(min-width: 1200px){
+  .navbar__right li a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    transform: scaleX(0);
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .navbar__right li a:hover:after {
+  
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    background-color: #ff4a57;
+  
+  }
+  
+}
