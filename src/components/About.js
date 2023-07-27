@@ -32,7 +32,7 @@ const About = () => {
             <div className="about__info">
               <h1>Hi, </h1>
               <div className="about__info-p1">
-              I am Full Stack Web Developer​ having hands on experience in Go Lang, Spring, Spring Boot, MicroService, Rest Api, HTML, CSS, JavaScript, React Js. 
+              As a Full Stack Web Developer with 2+ years of experience, I have a strong foundation in developing scalable and performant web applications using a variety of technologies. My experience includes developing applications with multiple technologies like Java Spring Boot, Go lang, React JS, Docker, and many more.
               </div>
               <div className="info__contacts">
                 <div className="row">

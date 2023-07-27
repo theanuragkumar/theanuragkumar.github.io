@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {Link} from 'react-scroll'
 import { FaAlignJustify } from "react-icons/fa";
 const Nav = () => {
 
   const [state, setState] = React.useState(true);
+  
+    useEffect(() => {
+      window.innerWidth > 1200 ? setState(true) : setState(false)
+    }, []);
+
+
   return (
     <nav className="navbar">
       <div className="container">
@@ -21,14 +27,15 @@ const Nav = () => {
               <li>
               <Link  to="projects"  smooth={true}>Projects</Link>
               </li>
-              <li>
-              <Link  to="about"  smooth={true}>About</Link>
-              </li>
+              
               <li>
               <Link  to="skills"  smooth={true}>Skills</Link>
               </li>
               <li>
-              <Link  to="contact" spy={true} smooth={true}>Contact</Link>
+              <Link  to="certifications"  smooth={true}>Certification</Link>
+              </li>
+              <li>
+              <Link  to="about"  smooth={true}>About</Link>
               </li>
             </ul>
           ) : (

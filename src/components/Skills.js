@@ -1,8 +1,9 @@
 import React from "react";
 
-const Prices = () => {
+const Skills = () => {
   const [header] = React.useState({
-    subHeading: "Skills",
+    mainHeader: "Skills",
+    subHeading: "My Skills",
     text:
       "",
   });
@@ -79,11 +80,30 @@ const Prices = () => {
       price: "Kubernetes",
      
     },
+    {
+      id: 12,
+      heading: "Devops",
+      price: "CI/CD",
+     
+    },
+    {
+      id: 13,
+      heading: "Database",
+      price: "SQL",
+     
+    },
+    {
+      id: 11,
+      heading: "Database",
+      price: "NoSQL",
+     
+    },
   ]);
   return (
     <div className="prices" id="skills">
       <div className="container">
         <div className="common">
+        <h3 className="heading">{header.mainHeader}</h3>
           <h1 className="mainHeader">{header.subHeading}</h1>
           <p className="mainContent">{header.text}</p>
           <div className="commonBorder"></div>
@@ -105,4 +125,4 @@ const Prices = () => {
   );
 };
 
-export default Prices;
+export default Skills;

@@ -3,7 +3,6 @@ import {
   FaCircleNotch,
   FaNewspaper,
   FaBlogger,
-  // FaFileVideo,
   FaShoppingBag,
   FaAddressBook
 } from "react-icons/fa";
@@ -26,7 +25,7 @@ const Services = () => {
       id: 2,
       icon: <FaNewspaper className="commonIcons" />,
       heading: "News App",
-      link: "",
+      link: "https://github.com/theanuragkumar/news",
       text:
         "developed a news app using HTML, CSS, JavaScript, BootStrap, React JS and News API where you can watch Top News Headlines,Business News, Sports News and many more... ",
     },
@@ -34,7 +33,7 @@ const Services = () => {
       id: 3,
       icon: <FaAddressBook className="commonIcons" />,
       heading: "iNoteManager",
-      link: "https://inotemanager.netlify.app/login",
+      link: "https://github.com/theanuragkumar/iNotebook",
       text:
         "developed a iNoteManager-Your Own Digital Notebook using  React JS and Node Js where You can login and then You can perform CRUD operation with your own notes."
     },
@@ -42,7 +41,7 @@ const Services = () => {
       id: 4,
       icon: <FaCircleNotch className="commonIcons" />,
       heading: "Covid-19 Predictor",
-      link: "",
+      link: "https://github.com/theanuragkumar/Covid19Predictor",
       text:
         "developed a Covid-19 Predictor using Flask and Machine Learning Algorithm where You can predict the probability of getting Infacted from Covid-19 after entering some medical values.",
     },

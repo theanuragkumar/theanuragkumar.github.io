@@ -11,7 +11,7 @@ const Banner = () => {
   const [state] = React.useState({
     title: "Hi, I am Anurag Kumar.",
     text:
-      "Full Stack Web Developer​ having hands on experience in Go lang, Spring, Spring Boot, MicroService, Rest Api, HTML, CSS, JavaScript, React Js. ",
+      "I'm a versatile Full Stack Developer skilled in Go Lang, Java Springboot, React, and Next Js, passionate about crafting seamless and innovative web experiences.",
   });
   return (
     <header className="header" id="home">
