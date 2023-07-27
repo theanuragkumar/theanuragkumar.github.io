@@ -32,7 +32,7 @@ const Nav = () => {
               <Link  to="skills"  smooth={true}>Skills</Link>
               </li>
               <li>
-              <Link  to="certifications"  smooth={true}>Certification</Link>
+              <Link  to="certifications"  smooth={true}>Certifications</Link>
               </li>
               <li>
               <Link  to="about"  smooth={true}>About</Link>
