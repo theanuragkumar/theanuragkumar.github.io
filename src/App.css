@@ -121,7 +121,9 @@ body {
 }
 .header__ul li:hover {
   background: #fff;
-  border: 2px solid transparent;
+  border: 2px solid transparent; 
+  transform: translateY(-10px);
+
 }
 .header__ul li:hover .headerIcon {
   color: #ff4a57;
@@ -362,6 +364,7 @@ body {
 }
 .contactCircles li:hover {
   background: #ff4a57;
+  transform: translateY(-10px);
 }
 #footer-content{
   font-size: small;
@@ -432,7 +435,7 @@ body {
     margin-bottom: 20px;
   }
   .header__section p {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 30px;
     margin-bottom: 50px;
@@ -465,10 +468,9 @@ body {
 
 @media (max-width: 800px) {
 
-  
   .container {
     width: 100%;
-    padding: 0 50px;
+    padding: 0 30px;
   }
   
   .col-6 {
@@ -509,7 +511,7 @@ body {
     margin-bottom: 20px;
   }
   .header__section p {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 30px;
     margin-bottom: 50px;
