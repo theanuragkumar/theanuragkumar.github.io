@@ -46,12 +46,9 @@ const Banner = () => {
                   <a href="https://drive.google.com/file/d/1g1-2JeP3w_3v-9S7oXJUFELSEred7qO2/view?usp=sharing" className="btn btn-outline" target="_blank" rel="noopener noreferrer">
                     My Resume
                   </a>
-                  &nbsp;&nbsp;&nbsp;
                   <a href="https://anucodes.com/blogs?user=Anurag" className="btn btn-outline" target="_blank" rel="noopener noreferrer">
                     My Blogs
                   </a>
-
-
                 </div>
               </div>
             </div>
