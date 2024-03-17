@@ -43,7 +43,7 @@ const Banner = () => {
                 
                 </div>
                 <div className="header__buttons">
-                  <a href="https://drive.google.com/file/d/1vbNAg8E-JSpJHqH4L_m-7ff0k_aVNs1a/view?usp=sharing className="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                  <a href="https://drive.google.com/file/d/1vbNAg8E-JSpJHqH4L_m-7ff0k_aVNs1a/view?usp=sharing" className="btn btn-outline" target="_blank" rel="noopener noreferrer">
                     My Resume
                   </a>
                   <a href="https://anucodes.com/blogs?user=Anurag" className="btn btn-outline" target="_blank" rel="noopener noreferrer">
