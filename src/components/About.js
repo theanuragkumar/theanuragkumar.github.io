@@ -32,7 +32,7 @@ const About = () => {
             <div className="about__info">
               <h1>Hi, </h1>
               <div className="about__info-p1">
-              As a Full Stack Web Developer with 2+ years of experience, I have a strong foundation in developing scalable and performant web applications using a variety of technologies. My experience includes developing applications with multiple technologies like Java Spring Boot, Go lang, React JS, Docker, and many more.
+              As a Full Stack Web Developer with 3 years of experience, I have a strong foundation in developing scalable and performant web applications using a variety of technologies. My experience includes developing applications with multiple technologies like Java Spring Boot, Go lang, React JS, Docker, and many more.
               </div>
               <div className="info__contacts">
                 <div className="row">

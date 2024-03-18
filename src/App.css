@@ -83,6 +83,12 @@ body {
   width: 100%;
   flex-wrap: wrap;
 }
+
+.banner_row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+}
 .col-6 {
   width: 50%;
 }
@@ -124,6 +130,9 @@ body {
   border: 2px solid transparent; 
   transform: translateY(-10px);
 
+}
+.headerIcon {
+  color: #fff;
 }
 .header__ul li:hover .headerIcon {
   color: #ff4a57;
@@ -178,6 +187,12 @@ body {
   padding: 0 30px;
   margin-top: 150px;
   margin-left: 20%;
+}
+
+.banner__img img {
+  padding: 10px;
+  margin: 0;
+  background-color: transparent;
   
 }
 
@@ -234,6 +249,10 @@ body {
   cursor: pointer;
   color : #fff;
   margin-top: 10px;
+}
+
+.services__box:hover > .services__box-b {
+  color: #fff;
 }
 .commonIcons {
   font-size: 40px;
@@ -417,7 +436,6 @@ body {
     top: 0;
     left: 0;
     gap: 0;
-    
   }
   .navbar__right li a {
     display: block;
@@ -432,9 +450,7 @@ body {
 
     
   }
-  .banner__img img {
-   display: none;
-  }
+ 
   .header__section h1 {
     font-size: 25px;
     font-weight: 700;
@@ -508,8 +524,21 @@ body {
 
     
   }
+  .banner__img {
+    margin-top: 100px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
   .banner__img img {
-    display: none;
+    width: 250px;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .header__content {
+    margin-top: 30px;
+    height: max-content;
   }
   .header__section h1 {
     font-size: 25px;
