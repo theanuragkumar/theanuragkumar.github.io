@@ -14,6 +14,13 @@ const Services = () => {
   });
   const [state] = React.useState([
     {
+      id: 8,
+      icon: <FaBlogger className="commonIcons" />,
+      heading: "Code Snippet",
+      link: "https://code.anucodes.com",
+      text: "A sleek and responsive web application for writing and sharing code snippets, built with Next.js 14 and Tailwind CSS.",
+    },
+    {
       id: 7,
       icon: <FaBlogger className="commonIcons" />,
       heading: "Incognito Chat App",
