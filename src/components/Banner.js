@@ -71,7 +71,7 @@ const Banner = () => {
           </div>
           <div className="col-6">
             <div className="banner__img">
-              <img src="https://i.ibb.co/3RgZbC7/anu.png" alt="" />
+              <img src="https://i.ibb.co/3RgZbC7/anu.png" alt="" style={{ display: "block"}} />
             </div>
           </div>
         </div>
