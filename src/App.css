@@ -480,8 +480,7 @@ body {
 
   .toggle {
     display: flex;
-
-    
+ 
     
   }
 
@@ -524,7 +523,7 @@ body {
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 
   .container {
     width: 100%;
@@ -534,7 +533,7 @@ body {
   .about-container{
     padding: 0 30px;
   }
-  .banner-conatiner{
+  .banner-conatiner, .navbar-container{
     padding: 0 20px;
   }
 

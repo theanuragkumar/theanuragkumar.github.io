@@ -10,7 +10,7 @@ const Nav = () => {
 
   return (
     <nav className="navbar">
-      <div className="container">
+      <div className="container navbar-container">
         <div className="navbar__container">
           <ul className="navbar__left">
             <div className="navbar__left-logo">
