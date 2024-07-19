@@ -14,7 +14,7 @@ const Banner = () => {
   });
   return (
     <header className="header" id="home">
-      <div className="container">
+      <div className="banner-conatiner container">
         <div className="banner_row">
           <div className="col-6">
             <div className="header__content">

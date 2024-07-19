@@ -15,7 +15,7 @@ const About = () => {
   ]);
   return (
     <div className="about" id="about">
-      <div className="container">
+      <div className="about-container container">
         <div className="common">
         <h1 className="heading">{header.mainHeader}</h1>
           <h1 className="mainHeader">{header.subHeader}</h1>

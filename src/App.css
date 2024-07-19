@@ -210,7 +210,7 @@ body {
 /* Servives */
 .services {
   background: #1f2235;
-  padding: 100px 0;
+  padding: 100px 0px;
   color: #fff;
 }
 
@@ -528,8 +528,16 @@ body {
 
   .container {
     width: 100%;
+    padding: 0 0px;
+  }
+
+  .about-container{
     padding: 0 30px;
   }
+  .banner-conatiner{
+    padding: 0 20px;
+  }
+
   
   .col-6 {
     width: 100%;
