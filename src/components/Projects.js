@@ -21,13 +21,6 @@ const Services = () => {
       text: "A sleek and responsive web application for writing and sharing code snippets, built with Next.js 14 and Tailwind CSS.",
     },
     {
-      id: 7,
-      icon: <FaBlogger className="commonIcons" />,
-      heading: "Incognito Chat App",
-      link: "https://chat.anucodes.com/login",
-      text: "Developed an anonymous chat app, is a secure and private messaging application designed with confidentiality in mind. Offering a safe haven for users to communicate without the fear of data exposure or privacy breaches",
-    },
-    {
       id: 1,
       icon: <FaShoppingBag className="commonIcons" />,
       heading: "Hawkeye - One Stop Shop",

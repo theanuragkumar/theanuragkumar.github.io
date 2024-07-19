@@ -25,6 +25,11 @@ const Nav = () => {
                 </Link>
               </li>
               <li>
+                <Link to="experience" smooth={true}>
+                  Experience
+                </Link>
+              </li>
+              <li>
                 <Link to="projects" smooth={true}>
                   Projects
                 </Link>
@@ -38,11 +43,6 @@ const Nav = () => {
               <li>
                 <Link to="certifications" smooth={true}>
                   Certifications
-                </Link>
-              </li>
-              <li>
-                <Link to="about" smooth={true}>
-                  About
                 </Link>
               </li>
             </ul>

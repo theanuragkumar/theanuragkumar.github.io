@@ -10,6 +10,17 @@ img {
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.flex{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+.space-between{
+  justify-content: space-between;
+}
+
 .header {
   margin-top: 40px;
   width: 100%;
@@ -267,10 +278,32 @@ body {
   font-weight: 500;
   margin-bottom: 15px;
 }
+
 .services__box-p {
   font-size: 14px;
   color: #dfdfdf;
 }
+.skills__container{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skills__tag{
+  background-color: #ff4a57;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.skills__tag:hover{
+  background-color:#1f2235;
+}
+
+.services__box:hover .skills__tag {
+  background-color: #1f2235; /* Change to desired color */
+}
+
 .about {
   width: 100%;
   background: #23263a;
@@ -595,6 +628,17 @@ body {
     width: 200px;
     height: 300px;
   }
+
+  .services__box-header {
+    font-size: 16px;
+  }
+
+  .skills__tag{
+    padding: 3px 8px;
+    font-size: 12px;
+
+  }
+
 
 }
 
