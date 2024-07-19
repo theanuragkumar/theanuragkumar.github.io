@@ -1,4 +1,5 @@
 import React from "react";
+import { FaStar } from "react-icons/fa";
 
 const Skills = () => {
   const [header] = React.useState({
@@ -8,102 +9,28 @@ const Skills = () => {
       "",
   });
   const [state] = React.useState([
-    {
-      id: 1,
-      heading: "Frontend",
-      price: "HTML",
-    
-    },
-    {
-      id: 2,
-      heading: "Frontend",
-      price: "CSS",
-     
-    },
-    {
-      id: 3,
-      heading: "Frontend",
-      price: "JS",
-     
-    },
-    {
-      id: 4,
-      heading: "Frontend",
-      price: "REACT JS",
-     
-    },
-    {
-      id: 12,
-      heading: "Frontend",
-      price: "Next JS",
-     
-    },
-    {
-      id: 5,
-      heading: "Backend",
-      price: "JAVA",
-     
-    },
-    {
-      id: 6,
-      heading: "Backend",
-      price: "Node JS",
-     
-    },
-    {
-      id: 7,
-      heading: "Backend",
-      price: "SpringBoot",
-     
-    },
-    {
-      id: 8,
-      heading: "Backend",
-      price: "Go Lang",
-     
-    },
-    {
-      id: 9,
-      heading: "Devops",
-      price: "Git",
-     
-    },
-    {
-      id: 10,
-      heading: "Devops",
-      price: "Docker",
-     
-    },
-    {
-      id: 11,
-      heading: "Devops",
-      price: "Kubernetes",
-     
-    },
-    {
-      id: 12,
-      heading: "Devops",
-      price: "CI/CD",
-     
-    },
-    {
-      id: 13,
-      heading: "Database",
-      price: "SQL",
-     
-    },
-    {
-      id: 11,
-      heading: "Database",
-      price: "NoSQL",
-     
-    },
+    { id: 1, heading: "Frontend", price: "HTML", star: 4 },
+    { id: 2, heading: "Frontend", price: "CSS", star: 2 },
+    { id: 3, heading: "Frontend", price: "JS", star: 3 },
+    { id: 4, heading: "Frontend", price: "REACT JS", star: 5 },
+    { id: 12, heading: "Frontend", price: "Next JS", star: 4 },
+    { id: 5, heading: "Backend", price: "JAVA", star: 5 },
+    { id: 6, heading: "Backend", price: "Node JS", star: 2 },
+    { id: 7, heading: "Backend", price: "SpringBoot", star: 5 },
+    { id: 8, heading: "Backend", price: "Go Lang", star: 5 },
+    { id: 9, heading: "Devops", price: "Git", star: 5 },
+    { id: 10, heading: "Devops", price: "Docker", star: 4 },
+    { id: 11, heading: "Devops", price: "Kubernetes", star: 2 },
+    { id: 12, heading: "Devops", price: "CI/CD", star: 2 },
+    { id: 13, heading: "Database", price: "SQL", star: 3 },
+    { id: 11, heading: "Database", price: "NoSQL", star: 3 },
   ]);
+
   return (
     <div className="prices" id="skills">
       <div className="container">
         <div className="common">
-        <h3 className="heading">{header.mainHeader}</h3>
+          <h3 className="heading">{header.mainHeader}</h3>
           <h1 className="mainHeader">{header.subHeading}</h1>
           <p className="mainContent">{header.text}</p>
           <div className="commonBorder"></div>
@@ -115,6 +42,11 @@ const Skills = () => {
                 <div className="priceHeading">{prices.heading}</div>
                 <div className="price__rs">
                   {prices.price}
+                </div>
+                <div className="stars">
+                  {[...Array(prices.star)].map((_, i) => (
+                    <FaStar key={i} />
+                  ))}
                 </div>
               </div>
             </div>
