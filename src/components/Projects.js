@@ -17,7 +17,7 @@ const Services = () => {
       id: 8,
       icon: <FaBlogger className="commonIcons" />,
       heading: "Code Snippet",
-      link: "https://code.anucodes.com",
+      link: "https://code.anucodes.in",
       text: "A sleek and responsive web application for writing and sharing code snippets, built with Next.js 14 and Tailwind CSS.",
     },
     {
@@ -31,7 +31,7 @@ const Services = () => {
       id: 2,
       icon: <FaBlogger className="commonIcons" />,
       heading: "Anucodes - Blog App",
-      link: "https://www.anucodes.com/",
+      link: "https://www.anucodes.in/",
       text: "Developed AnuCodes-Blog, a powerful and scalable blogging application, utilizing the microservice architecture. The primary goal was to create a feature-rich platform where blog writers can showcase their talent, and administrators can efficiently manage the entire ecosystem",
     },
     {

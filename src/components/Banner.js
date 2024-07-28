@@ -58,7 +58,7 @@ const Banner = () => {
                     My Resume
                   </a>
                   <a
-                    href="https://anucodes.com/blogs?user=Anurag"
+                    href="https://anucodes.in/blogs?user=Anurag"
                     className="btn btn-outline"
                     target="_blank"
                     rel="noopener noreferrer"
