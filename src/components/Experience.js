@@ -16,7 +16,14 @@ const Experience = () => {
             heading: "International Business Machines (IBM)",
             role: "Application Developer",
             duration: "June 2024 - Current",
-            text: "",
+            text: `<ul>
+    <li><strong>Developing High-Performance Services:</strong> Leveraging Go (Golang) to create efficient, high-performance services specifically tailored for the inventory domain, optimizing them for large-scale data processing and real-time updates.</li>
+    <li><strong>Database Expertise:</strong> Utilizing YugabyteDB YSQL and YCQL to manage and query inventory data, ensuring both consistency and scalability across distributed environments.</li>
+    <li><strong>Event-Driven Architecture:</strong> Integrating with Azure Event Hub for real-time event streaming, enabling responsive and dynamic inventory management systems.</li>
+    <li><strong>Collaborating on Admin Dashboard Design:</strong> Working closely with product designers to create an intuitive and powerful Admin Dashboard for managing inventory rules, providing users with better control and visibility over their inventory processes.</li>
+    <li><strong>Seamless Cloud Integration:</strong> Contributing to the seamless integration of cloud-based services, ensuring a resilient and future-proof inventory management system.</li>
+</ul>
+`,
             skills: ["Go Lang", "React JS", "Kafka", "Yugabyte", "Prometheus", "Docker", "kubernetes ", "Grafana"]
         },
         {
